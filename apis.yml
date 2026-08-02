@@ -1,8 +1,25 @@
 aid: ventus-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ventus-therapeutics.png
 name: Ventus Therapeutics
-description: 'Ventus Therapeutics is a company surfaced as a portfolio company of gv, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Ventus Therapeutics is a clinical-stage biopharmaceutical company focused on small-molecule
+  drug discovery for biologically validated targets historically considered undruggable, across inflammatory,
+  immunological, cardiometabolic, and neurological diseases. Its ReSOLVE platform combines AI/ML, protein
+  science, structural biology, and biophysics to accelerate discovery; the pipeline includes VENT-03 (cGAS
+  inhibitor), VENT-02 (NLRP3 inhibitor), and VENT-04 (caspase-4/5 inhibitor). Headquartered in Waltham,
+  Massachusetts with a site in Saint-Laurent, Quebec, and backed by GV and the SoftBank Vision Fund. The
+  company operates no public developer API surface; this profile is maintained in the API Evangelist network
+  as a company/provider record.'
 url: https://raw.githubusercontent.com/api-evangelist/ventus-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Therapeutics
+- AI/ML
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ventus-therapeutics-domain-security.yml
 - type: Website
-  url: http://ventustx.com
+  url: https://www.ventustx.com
+- type: Blog
+  url: https://www.ventustx.com/news/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
